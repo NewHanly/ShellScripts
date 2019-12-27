@@ -2,7 +2,7 @@
 
 ## Panscan
 
-扫描Docker版Nextcloud的用户目录，以便更新手动下载的文件到Nextcloud数据库
+扫描Docker版Nextcloud的用户目录，以便更新手动下载的文件到Nextcloud数据库，脚本需修改后使用
 
 ```bash
 wget -c "https://raw.githubusercontent.com/NewHanly/ShellScripts/master/panscan.sh" -O panscan.sh
