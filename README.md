@@ -10,6 +10,8 @@ wget -c "https://raw.githubusercontent.com/NewHanly/ShellScripts/master/panscan.
 
 ## sshkey一键设置
 
+自行替换脚本里的公钥
+
 ```bash
 wget -c "https://raw.githubusercontent.com/NewHanly/ShellScripts/master/sshkeyset.sh" -O sshkeyset.sh
 ```
