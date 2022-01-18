@@ -7,5 +7,6 @@ echo ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQChhxYKROMK4+QujOPIrzTnqOQqHfgIMiyQJ6P
 chmod 600 ~/.ssh/authorized_keys
 chmod 700 ~/.ssh
 if [ ! -f "~/.ssh/authorized_keys" ]; then
-  echo 'All done,please restart ssh service.'
+  systemctl restart sshd
+  echo 'All done'
 fi
